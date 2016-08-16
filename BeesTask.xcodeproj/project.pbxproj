@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4235DDB91D63A8060041FA9E /* TestBees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4235DDB81D63A8060041FA9E /* TestBees.swift */; };
 		4235DDBB1D63AB1C0041FA9E /* TestBehive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4235DDBA1D63AB1C0041FA9E /* TestBehive.swift */; };
+		4235DDBD1D63BF350041FA9E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4235DDBC1D63BF350041FA9E /* TestViewController.swift */; };
+		4235DDBF1D63C1070041FA9E /* TestBeesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4235DDBE1D63C1070041FA9E /* TestBeesDataSource.swift */; };
+		4235DDC11D63C40D0041FA9E /* TestArraySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4235DDC01D63C40D0041FA9E /* TestArraySample.swift */; };
 		4250FCEF1D6344C5003AEB5B /* BeesTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FCEE1D6344C5003AEB5B /* BeesTaskTests.swift */; };
 		4250FD051D63464C003AEB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4250FCFC1D63464C003AEB5B /* Assets.xcassets */; };
 		4250FD061D63464C003AEB5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4250FCFD1D63464C003AEB5B /* LaunchScreen.storyboard */; };
@@ -36,6 +39,9 @@
 /* Begin PBXFileReference section */
 		4235DDB81D63A8060041FA9E /* TestBees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBees.swift; sourceTree = "<group>"; };
 		4235DDBA1D63AB1C0041FA9E /* TestBehive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBehive.swift; sourceTree = "<group>"; };
+		4235DDBC1D63BF350041FA9E /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		4235DDBE1D63C1070041FA9E /* TestBeesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBeesDataSource.swift; sourceTree = "<group>"; };
+		4235DDC01D63C40D0041FA9E /* TestArraySample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestArraySample.swift; sourceTree = "<group>"; };
 		4250FCD61D6344C5003AEB5B /* BeesTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeesTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4250FCEA1D6344C5003AEB5B /* BeesTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeesTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4250FCEE1D6344C5003AEB5B /* BeesTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeesTaskTests.swift; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 				4250FCEE1D6344C5003AEB5B /* BeesTaskTests.swift */,
 				4235DDB81D63A8060041FA9E /* TestBees.swift */,
 				4235DDBA1D63AB1C0041FA9E /* TestBehive.swift */,
+				4235DDBC1D63BF350041FA9E /* TestViewController.swift */,
+				4235DDBE1D63C1070041FA9E /* TestBeesDataSource.swift */,
+				4235DDC01D63C40D0041FA9E /* TestArraySample.swift */,
 				4250FCF01D6344C5003AEB5B /* Info.plist */,
 			);
 			path = BeesTaskTests;
@@ -270,6 +279,9 @@
 			files = (
 				4235DDB91D63A8060041FA9E /* TestBees.swift in Sources */,
 				4250FCEF1D6344C5003AEB5B /* BeesTaskTests.swift in Sources */,
+				4235DDBD1D63BF350041FA9E /* TestViewController.swift in Sources */,
+				4235DDC11D63C40D0041FA9E /* TestArraySample.swift in Sources */,
+				4235DDBF1D63C1070041FA9E /* TestBeesDataSource.swift in Sources */,
 				4235DDBB1D63AB1C0041FA9E /* TestBehive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
