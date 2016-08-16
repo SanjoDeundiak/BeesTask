@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4235DDB91D63A8060041FA9E /* TestBees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4235DDB81D63A8060041FA9E /* TestBees.swift */; };
+		4235DDBB1D63AB1C0041FA9E /* TestBehive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4235DDBA1D63AB1C0041FA9E /* TestBehive.swift */; };
 		4250FCEF1D6344C5003AEB5B /* BeesTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FCEE1D6344C5003AEB5B /* BeesTaskTests.swift */; };
-		4250FD041D63464C003AEB5B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4250FCFA1D63464C003AEB5B /* Info.plist */; };
 		4250FD051D63464C003AEB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4250FCFC1D63464C003AEB5B /* Assets.xcassets */; };
 		4250FD061D63464C003AEB5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4250FCFD1D63464C003AEB5B /* LaunchScreen.storyboard */; };
 		4250FD071D63464C003AEB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4250FCFF1D63464C003AEB5B /* Main.storyboard */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4235DDB81D63A8060041FA9E /* TestBees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBees.swift; sourceTree = "<group>"; };
+		4235DDBA1D63AB1C0041FA9E /* TestBehive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBehive.swift; sourceTree = "<group>"; };
 		4250FCD61D6344C5003AEB5B /* BeesTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeesTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4250FCEA1D6344C5003AEB5B /* BeesTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeesTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4250FCEE1D6344C5003AEB5B /* BeesTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeesTaskTests.swift; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				4250FCEE1D6344C5003AEB5B /* BeesTaskTests.swift */,
+				4235DDB81D63A8060041FA9E /* TestBees.swift */,
+				4235DDBA1D63AB1C0041FA9E /* TestBehive.swift */,
 				4250FCF01D6344C5003AEB5B /* Info.plist */,
 			);
 			path = BeesTaskTests;
@@ -231,7 +236,6 @@
 				4250FD061D63464C003AEB5B /* LaunchScreen.storyboard in Resources */,
 				4250FD151D635CB6003AEB5B /* BeeCell.xib in Resources */,
 				4250FD051D63464C003AEB5B /* Assets.xcassets in Resources */,
-				4250FD041D63464C003AEB5B /* Info.plist in Resources */,
 				4250FD071D63464C003AEB5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4235DDB91D63A8060041FA9E /* TestBees.swift in Sources */,
 				4250FCEF1D6344C5003AEB5B /* BeesTaskTests.swift in Sources */,
+				4235DDBB1D63AB1C0041FA9E /* TestBehive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +460,7 @@
 				4250FCF51D6344C6003AEB5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4250FCF61D6344C6003AEB5B /* Build configuration list for PBXNativeTarget "BeesTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +469,7 @@
 				4250FCF81D6344C6003AEB5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

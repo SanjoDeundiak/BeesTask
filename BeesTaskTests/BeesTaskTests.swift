@@ -9,7 +9,7 @@
 import XCTest
 @testable import BeesTask
 
-class BeesTaskTests: XCTestCase {
+class TestCase: XCTestCase {
     
     override func setUp() {
         super.setUp()

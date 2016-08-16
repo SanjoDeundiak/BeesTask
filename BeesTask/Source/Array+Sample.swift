@@ -9,7 +9,11 @@
 import Foundation
 
 extension Array {
-    func sample() -> Element {
+    func sample() -> Element? {
+        guard self.count != 0 else {
+            return nil
+        }
+        
         let randomIndex = Int(rand()) % self.count
         return self[randomIndex]
     }

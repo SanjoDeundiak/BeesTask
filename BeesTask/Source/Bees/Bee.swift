@@ -14,7 +14,7 @@ let QueenBeeHitRate = 8
 let WorkerBeeTotalPoints = 75
 let WorkerBeeHitRate = 10
 
-let DroneBeeTotalPoints = 40
+let DroneBeeTotalPoints = 50
 let DroneBeeHitRate = 12
 
 class Bee {

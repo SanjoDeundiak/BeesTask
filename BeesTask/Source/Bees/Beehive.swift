@@ -70,7 +70,7 @@ class Beehive {
         }
     }
     
-    private func getRandomAliveBee() -> Bee {
+    private func getRandomAliveBee() -> Bee? {
         return self.bees.filter({ !$0.isDead }).sample()
     }
     
@@ -79,7 +79,7 @@ class Beehive {
     }
     
     func hitRandomBee() {
-        self.getRandomAliveBee().gotHit()
+        self.getRandomAliveBee()?.gotHit()
         
         self.updateState()
     }
