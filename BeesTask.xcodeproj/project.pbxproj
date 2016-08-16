@@ -14,6 +14,12 @@
 		4250FD071D63464C003AEB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4250FCFF1D63464C003AEB5B /* Main.storyboard */; };
 		4250FD081D63464C003AEB5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FD021D63464C003AEB5B /* AppDelegate.swift */; };
 		4250FD091D63464C003AEB5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FD031D63464C003AEB5B /* ViewController.swift */; };
+		4250FD0C1D6346C2003AEB5B /* Bee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FD0B1D6346C2003AEB5B /* Bee.swift */; };
+		4250FD101D634C69003AEB5B /* Beehive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FD0F1D634C69003AEB5B /* Beehive.swift */; };
+		4250FD121D635284003AEB5B /* Array+Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FD111D635284003AEB5B /* Array+Sample.swift */; };
+		4250FD151D635CB6003AEB5B /* BeeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4250FD131D635CB6003AEB5B /* BeeCell.xib */; };
+		4250FD171D635D14003AEB5B /* BeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FD161D635D14003AEB5B /* BeeCell.swift */; };
+		4250FD191D635D62003AEB5B /* BeesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250FD181D635D62003AEB5B /* BeesDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,12 @@
 		4250FD001D63464C003AEB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4250FD021D63464C003AEB5B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4250FD031D63464C003AEB5B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4250FD0B1D6346C2003AEB5B /* Bee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bee.swift; sourceTree = "<group>"; };
+		4250FD0F1D634C69003AEB5B /* Beehive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beehive.swift; sourceTree = "<group>"; };
+		4250FD111D635284003AEB5B /* Array+Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Sample.swift"; sourceTree = "<group>"; };
+		4250FD141D635CB6003AEB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BeeCell.xib; sourceTree = "<group>"; };
+		4250FD161D635D14003AEB5B /* BeeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeeCell.swift; sourceTree = "<group>"; };
+		4250FD181D635D62003AEB5B /* BeesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeesDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +120,7 @@
 				4250FCFC1D63464C003AEB5B /* Assets.xcassets */,
 				4250FCFD1D63464C003AEB5B /* LaunchScreen.storyboard */,
 				4250FCFF1D63464C003AEB5B /* Main.storyboard */,
+				4250FD131D635CB6003AEB5B /* BeeCell.xib */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -115,10 +128,23 @@
 		4250FD011D63464C003AEB5B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4250FD0A1D6346B8003AEB5B /* Bees */,
 				4250FD021D63464C003AEB5B /* AppDelegate.swift */,
 				4250FD031D63464C003AEB5B /* ViewController.swift */,
+				4250FD111D635284003AEB5B /* Array+Sample.swift */,
+				4250FD161D635D14003AEB5B /* BeeCell.swift */,
+				4250FD181D635D62003AEB5B /* BeesDataSource.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		4250FD0A1D6346B8003AEB5B /* Bees */ = {
+			isa = PBXGroup;
+			children = (
+				4250FD0B1D6346C2003AEB5B /* Bee.swift */,
+				4250FD0F1D634C69003AEB5B /* Beehive.swift */,
+			);
+			path = Bees;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4250FD061D63464C003AEB5B /* LaunchScreen.storyboard in Resources */,
+				4250FD151D635CB6003AEB5B /* BeeCell.xib in Resources */,
 				4250FD051D63464C003AEB5B /* Assets.xcassets in Resources */,
 				4250FD041D63464C003AEB5B /* Info.plist in Resources */,
 				4250FD071D63464C003AEB5B /* Main.storyboard in Resources */,
@@ -223,7 +250,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4250FD171D635D14003AEB5B /* BeeCell.swift in Sources */,
+				4250FD101D634C69003AEB5B /* Beehive.swift in Sources */,
 				4250FD091D63464C003AEB5B /* ViewController.swift in Sources */,
+				4250FD121D635284003AEB5B /* Array+Sample.swift in Sources */,
+				4250FD0C1D6346C2003AEB5B /* Bee.swift in Sources */,
+				4250FD191D635D62003AEB5B /* BeesDataSource.swift in Sources */,
 				4250FD081D63464C003AEB5B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +293,14 @@
 				4250FD001D63464C003AEB5B /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4250FD131D635CB6003AEB5B /* BeeCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4250FD141D635CB6003AEB5B /* Base */,
+			);
+			name = BeeCell.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
